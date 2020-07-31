@@ -1,0 +1,217 @@
+html,
+body {
+  font-family: 'Dosis', sans-serif !important;
+  margin: 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+.image-container {
+  height: 75vh;
+  background-image: url(img/home.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  padding: 1em;
+}
+
+.image-container h1 {
+  font-size: 70px;
+  text-shadow: 0 0 4px #000;
+  margin-bottom: 0;
+}
+
+.image-container p {
+  font-size: 40px;
+  text-shadow: 0 0 4px #000;
+  margin-top: 0;
+}
+
+header .header-content {
+  background-color: #4C0201;
+  border-bottom: solid 1px #fff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 3em;
+}
+
+header .header-content h1 {
+  font-size: 40px;
+  text-shadow: 0 0 4px #000;
+  margin-bottom: 0;
+}
+
+header .header-content p {
+  font-size: 20px;
+  text-shadow: 0 0 4px #000;
+  margin-top: 0;
+}
+
+nav {
+  /*background-color: firebrick;*/
+  background-color: #4C0201;
+  /*background-color: black;*/
+  font-size: 22px;
+  margin: 0;
+  padding: 5px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 8px;
+}
+
+nav ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #d39e00;
+  text-decoration: none;
+}
+
+.container {
+  margin: 1.5rem;
+}
+
+.container section article {
+  margin: 1em 0;
+}
+
+.intro {
+  font-size: 1.3rem;
+}
+
+.carousel-caption {
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 8px;
+  padding-top: 0;
+}
+
+.carousel-caption {
+  text-shadow: 0 0 4px #000;
+}
+
+.slider-stage img {
+  border-radius: 8px;
+  border-top: solid 3px #4c0201;
+  border-left: solid 3px #4c0201;
+  margin-top: 1.5em;
+}
+
+.slider-stage {
+  padding: 0 4em;
+}
+
+.img-stage {
+  padding: 0;
+}
+
+.desc-stage {
+  padding: 0;
+}
+
+.stage-tag {
+  background: rgba(0, 0, 0, 0.219);
+  border-radius: 8px;
+  margin-top: 10%;
+  padding: .2rem 1.5rem;
+}
+
+.stage-tag h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.details li {
+  color: #4C0201;
+  padding-bottom: 0;
+}
+
+.details li i {
+  color: #000;
+  font-size: 18px;
+  margin-right: 0.5em;
+}
+
+.image-form {
+  background-image: url(img/taza.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+form .form-control:focus {
+  border-color: #4c02017c;
+  box-shadow: 0 0 0 0.2rem rgba(76, 2, 1, .25);
+}
+
+.btn-outline {
+  border: solid 1px #4c0201;
+  border-radius: 5px;
+  color: #4c0201;
+  font-size: 16px;
+  font-weight: 400px;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.btn-outline:hover {
+  color: #fff;
+  background: #4c0201;
+}
+
+main a {
+  color: #4C0201;
+  font-weight: 600;
+}
+
+main a:hover {
+  color: #4C0201;
+  font-weight: 600;
+}
+
+.btn-outline-primary {
+  color: #4c0201;
+  border-color: #4c0201;
+}
+
+#button-build {
+  color: #4c0201;
+  background-color: #d39e008c;
+  border-color: #d39e00;
+}
+
+footer {
+  background-color: #42474A;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+footer a i {
+  font-size: 40px;
+  color: #fff;
+  margin: 0 10px 16px 0;
+}
+
+footer p {
+  margin: 1px;
+}
